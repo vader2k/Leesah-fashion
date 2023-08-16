@@ -435,6 +435,7 @@ nav a:hover{
    outline: none;
    border: none;
    cursor: pointer;
+   color: black;
 }
 .soon-text button:hover{
    color: white;
