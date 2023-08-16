@@ -209,6 +209,7 @@ nav a:hover{
        overflow-x: scroll;
        scroll-snap-type: x mandatory;
        -webkit-overflow-scrolling: touch;
+       overflow-y: hidden;
    }
 
    .div1 {
@@ -647,7 +648,7 @@ input{
       font-weight: 900;
       cursor: pointer;
       z-index: 2;
-      transform: translateX(-100px);
+      transform: translateX(-99px);
       
    }
 };
