@@ -404,6 +404,8 @@ nav a:hover{
    border: 1px solid black;
    outline: none;
    cursor: pointer;
+   background-color: white;
+   color: black;
 }
 .load:hover{
    color: white;
