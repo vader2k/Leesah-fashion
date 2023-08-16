@@ -647,7 +647,7 @@ input{
       font-weight: 900;
       cursor: pointer;
       z-index: 2;
-      transform: translateX(-99px);
+      transform: translateX(-97px);
       
    }
    .collection-text h1{
