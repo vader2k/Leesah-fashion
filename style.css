@@ -651,4 +651,9 @@ input{
       transform: translateX(-99px);
       
    }
+   .collection-text h1{
+      font-size: 2rem;
+      font-weight: bolder;
+      text-align: center
+   }
 };
