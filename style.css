@@ -120,9 +120,6 @@ nav a:hover{
    border-radius: 30px;
    cursor: pointer;
 }
-.item{
-   position: absolute;
-}
 .hero-img{
    height: 100vh;
 }
@@ -418,7 +415,7 @@ nav a:hover{
 }
 .soon-text{
    color: white;
-   padding: 40px;
+   padding: 40px 0px;
 }
 .soon-text h1{
    padding: 30px 0px;
@@ -577,9 +574,13 @@ input{
    .hero-img{
       height: 70vh;
    }
-
+   .item{
+      margin: 0 !important;
+      padding: 250px 0px 40px 20px !important;
+   }
    .hero h1{
       font-size: 4rem;
+
    }
    .hero div{
       padding: 350px 10px 0px 60px;
@@ -604,5 +605,46 @@ input{
       left: 50%;
       transform: translate(-50%, -50%) !important;
    }
-
+   .collecions{
+      text-align: justify;
+      width: 90%; 
+      margin: auto;
+      padding: 40px 0px;
+   }
+   .Arrivals{
+      width: 90%;
+      margin: auto;
+      text-align: center;
+      padding: 30px 0px;
+   }
+   .categories{
+      width: 90%;
+      margin: auto;
+   }
+   .soon-wraper{
+      display: flex;
+      width: 90% !important;
+      margin: auto;
+      justify-content: space-around;
+      place-items: center;
+   }
+   .newsletter-container{
+      width: 90%;
+      margin: auto;
+      text-align: center;
+   }
+   .submit-btn{
+      position: absolute;
+      padding: 20px ;
+      outline: none;
+      border: none;
+      border-radius: 30px;
+      background-color: black;
+      color: white;
+      font-weight: 900;
+      cursor: pointer;
+      z-index: 2;
+      transform: translateX(-110px);
+      
+   }
 };
