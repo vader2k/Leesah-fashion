@@ -647,7 +647,7 @@ input{
       font-weight: 900;
       cursor: pointer;
       z-index: 2;
-      transform: translateX(-110px);
+      transform: translateX(-100px);
       
    }
 };
