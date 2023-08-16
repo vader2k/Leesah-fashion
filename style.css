@@ -60,8 +60,7 @@ nav a:hover{
        flex-direction: column;
        padding: min(30vh, 10rem) 2em;
        z-index: 1000;
-       background-color: #b5c3c934;
-       backdrop-filter: blur(5rem);
+       background-color: white;
        transform: translateX(100%);
        transition: transform 350ms ease-in-out;
    }
