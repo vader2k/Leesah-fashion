@@ -11,8 +11,13 @@
    justify-content: space-between;
    padding: 10px 20px;
    align-items: center;
-   width: 80%;
+   padding: 10px 10%;
    margin: auto;
+   position: sticky;
+   top: 0;
+   background-color: white;
+   overflow: hidden;
+   z-index: 99999;
 }
 .logo{
    font-weight: 900;
@@ -123,9 +128,8 @@ nav a:hover{
    height: 100vh;
 }
 .hero-bg{
-   top:40%;
-   left: 50%;
-   transform: translate(-50%, -50%) !important;
+   top:55%;
+   transform: translate(15%, -70%) !important;
 }
 
 .collecions{
@@ -534,6 +538,14 @@ input{
    }
    
 }
+@media screen and (min-width:820px) {
+   .hero-bg{
+      top:55%;
+      left: 50%;
+      transform: translate(-20%, -60%) !important;
+   }
+   
+}
 
 @media screen and (min-width:1200px) {
    .hero .item{
@@ -545,14 +557,7 @@ input{
       justify-content: space-between;
    }
 }
-@media screen and (min-width:1300px) {
-   .hero-bg{
-      top:40%;
-      left: 40%;
-      transform: translate(-50%, -50%) !important;
-   }
 
-}
 @media screen and (max-width:800px) {
    .soon-img{
       width: 400px;
