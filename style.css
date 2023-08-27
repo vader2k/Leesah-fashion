@@ -32,6 +32,9 @@
    list-style: none;
    cursor: pointer;
 }
+nav{
+   transition: 2.5ms ease-in-out;
+}
 .nav-icon{
    width: 25px;
    cursor: pointer;
